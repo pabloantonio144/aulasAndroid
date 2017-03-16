@@ -25,7 +25,7 @@ public class ListMain extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        String[] values = new String[] {"Calculadora", "Principal", "MainActivity"};
+        String[] values = new String[] {"Calculadora", "Principal", "MainActivity", "Exercicio1"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, values);
         setListAdapter(adapter);
     }
@@ -47,6 +47,10 @@ public class ListMain extends ListActivity {
                 break;
             case "MainActivity":
                 i = new Intent(this, MainActivity.class);
+                startActivity(i);
+                break;
+            case "Exemplo1":
+                i = new Intent(this, Exercicio1Tela1.class);
                 startActivity(i);
                 break;
 

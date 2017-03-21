@@ -50,19 +50,18 @@ public class ListMain extends ListActivity {
                 i = new Intent(this, MainActivity.class);
                 startActivity(i);
                 break;
-            case "Exercicio1":
+            case "Exercicio 1":
                 i = new Intent(this, Exercicio1Tela1.class);
                 startActivity(i);
                 break;
-            case "Exercicio2":
+            case "Exercicio 2":
                 i = new Intent(this, Exercicio2Tela1.class);
                 startActivity(i);
                 break;
-            case "Exercicio3":
-                i = new Intent(this, Exercicio3Tela1.class);
-                startActivity(i);
-                break;
+
 
         }
     }
+
+
 }

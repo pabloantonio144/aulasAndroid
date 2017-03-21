@@ -23,5 +23,6 @@
         android:text="Enviar"
         android:id="@+id/button9"
         android:layout_centerVertical="true"
-        android:layout_alignEnd="@+id/edNumero" />
+        android:layout_alignEnd="@+id/edNumero"
+        android:onClick="enviarResposta" />
 </RelativeLayout>

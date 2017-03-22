@@ -1,18 +1,19 @@
 package com.example.laboratorio.ciclodevida;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
-/**
- * Created by Pablo on 21/03/2017.
- */
-public class Exercicio3Tela1 extends AppCompatActivity{
-
+public class Exercicio3Tela1 extends AppCompatActivity {
+    EditText nome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercicio3_tela1);
+        nome = (EditText) findViewById(R.id.edPalavra);
+    }
+    public void enviarResposta(View view){
 
     }
 }

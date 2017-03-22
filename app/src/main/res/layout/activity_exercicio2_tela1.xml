@@ -7,22 +7,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.laboratorio.ciclodevida.exercicio2_tela1">
+    tools:context=".Exercicio2Tela1">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edNome"
+        android:id="@+id/edPalavra"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp" />
+        android:layout_marginTop="54dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enviar"
         android:id="@+id/button10"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/edPalavra"
         android:layout_centerHorizontal="true"
-        android:onClick="enviarResposta" />
+        android:layout_marginTop="58dp"
+        android:onClick="enviarResultado" />
 </RelativeLayout>

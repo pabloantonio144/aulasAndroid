@@ -12,25 +12,26 @@ import android.widget.EditText;
 public class Exercicio2Tela1 extends AppCompatActivity {
     EditText nome;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercicio2_tela1);
         nome = (EditText) findViewById(R.id.edNome);
     }
 
-    public void enviarResposta(View view) {
 
-        String n = String.valueOf(nome.toString());
-       String msg = "A primeira letra e: " + n.charAt(0)+ "Ultima letra e: " + n.charAt(nome.length()-1);
+    //public void enviarResposta(View view) {
 
-        if((nome.length() < 5))
-            msg += "Informe uma palavra maior que 5 letras";
+      //  String n = String.valueOf(nome.toString());
+//       String msg = "A primeira letra e: " + n.charAt(0)+ "Ultima letra e: " + n.charAt(nome.length()-1);
 
-        Intent i = new Intent(this, Exercicio2Tela2.class);
-        i.putExtra("resultado", msg);
-        startActivity(i);
+  //      if((nome.length() < 5))
+    //        msg += "Informe uma palavra maior que 5 letras";
+
+//        Intent i = new Intent(this, Exercicio2Tela2.class);
+       // i.putExtra("resultado", msg);
+        //startActivity(i);
 
 
 
     }
-}

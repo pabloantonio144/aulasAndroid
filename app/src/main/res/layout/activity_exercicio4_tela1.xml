@@ -7,22 +7,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.laboratorio.ciclodevida.Exercicio1Tela1">
+    tools:context=".Exercicio4Tela1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sua Nota Final"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edNumero"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="73dp" />
+        android:id="@+id/edNota"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enviar"
-        android:id="@+id/button9"
-        android:layout_centerVertical="true"
-        android:layout_alignEnd="@+id/edNumero"
-        android:onClick="enviarDados" />
+        android:id="@+id/button13"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/edNota"
+        android:layout_alignParentStart="true"
+        android:onClick="enviarNota" />
+
 </RelativeLayout>

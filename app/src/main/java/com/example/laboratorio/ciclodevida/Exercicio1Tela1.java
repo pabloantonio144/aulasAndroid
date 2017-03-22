@@ -16,7 +16,7 @@ public class Exercicio1Tela1 extends AppCompatActivity {
         numero = (EditText) findViewById(R.id.edNumero);
     }
 
-    public void enviarResposta(View view){
+    public void enviarDados(View view){
         int n = Integer.valueOf(numero.getText().toString());
 
         String msg = "Antecessor: "+ (n-1) +

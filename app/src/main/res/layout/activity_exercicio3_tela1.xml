@@ -9,20 +9,59 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Exercicio3Tela1">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idade"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edPalavra"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp" />
+        android:id="@+id/edIdade"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado Civil"
+        android:id="@+id/textView3"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/edIdade"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edCivil"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolaridade"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/edCivil"
+        android:layout_marginTop="39dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edEscolaridade"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enviar"
         android:id="@+id/button12"
-        android:layout_below="@+id/edPalavra"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/edEscolaridade"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp" />
+        android:onClick="enviarCargo" />
 </RelativeLayout>

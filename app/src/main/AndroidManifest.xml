@@ -28,11 +28,16 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".Exercicio3Tela1" />
         <activity android:name=".Exercicio6Tela1" />
         <activity android:name=".Exercicio6Tela2" />
         <activity android:name=".Exercicio2Tela1" />
-        <activity android:name=".Exercicio2Tela2"></activity>
+        <activity android:name=".Exercicio2Tela2" />
+        <activity android:name=".Exercicio3Tela1" />
+        <activity android:name=".Exercicio3Tela2" />
+        <activity android:name=".Exercicio4Tela1" />
+        <activity android:name=".Exercicio4Tela2" />
+        <activity android:name=".Exercicio5Tela1" />
+        <activity android:name=".Exercicio5Tela2"></activity>
     </application>
 
 </manifest>

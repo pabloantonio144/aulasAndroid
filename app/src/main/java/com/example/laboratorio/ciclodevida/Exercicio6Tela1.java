@@ -21,7 +21,7 @@ public class Exercicio6Tela1 extends AppCompatActivity {
     public void enviarResposta(View view) {
         int n = Integer.valueOf(num.getText().toString());
 
-        String msg = null;
+        String msg = "";
         if (n > 10){
             msg+="O"+n+"multiplicado por 2 e:" +n*2;
 

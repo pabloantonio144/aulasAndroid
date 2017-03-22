@@ -19,7 +19,7 @@ public class Exercicio2Tela1 extends AppCompatActivity {
     public void enviarResultado(View view) {
         String n = String.valueOf(nome.toString());
 
-        String msg = null;
+        String msg = "";
 
         if ((nome.length() < 5)) {
             msg += "Informe uma palavra maior que 5 letras";

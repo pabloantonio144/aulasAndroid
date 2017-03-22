@@ -37,7 +37,13 @@
         <activity android:name=".Exercicio4Tela1" />
         <activity android:name=".Exercicio4Tela2" />
         <activity android:name=".Exercicio5Tela1" />
-        <activity android:name=".Exercicio5Tela2"></activity>
+        <activity android:name=".Exercicio5Tela2" />
+        <activity android:name=".Exercicio7Tela1" />
+        <activity android:name=".Exercicio7Tela2" />
+        <activity android:name=".Exercicio8Tela1" />
+        <activity android:name=".Exercicio8Tela2" />
+        <activity android:name=".Exercicio9Tela1" />
+        <activity android:name=".Exercicio9Tela2"></activity>
     </application>
 
 </manifest>

@@ -17,7 +17,7 @@ public class Exercicio2Tela1 extends AppCompatActivity {
     }
 
     public void enviarResultado(View view) {
-        String n = String.valueOf(nome.toString());
+        String n = String.valueOf(nome.getText().toString());
 
         String msg = "";
 

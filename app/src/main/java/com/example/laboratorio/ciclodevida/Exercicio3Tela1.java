@@ -20,10 +20,10 @@ public class Exercicio3Tela1 extends AppCompatActivity {
     public void enviarCargo(View view){
 String msg = "";
         int id = Integer.valueOf(idade.getText().toString());
-        String cv = String.valueOf(civil.toString());
-        String es = String.valueOf(escolaridade.toString());
+        String cv = String.valueOf(civil.getText().toString());
+        String es = String.valueOf(escolaridade.getText().toString());
 
-        if((id > 20) && ((cv.equals("solteiro"))) && ((es.equals("segundo grau")))){
+        if((id > 20) && ((cv.trim().equals("solteiro"))) && ((es.trim().equals("segundo grau")))){
             msg+= "Voce foi Admitido";
         }else msg+= "Voce não foi aprovado";
 

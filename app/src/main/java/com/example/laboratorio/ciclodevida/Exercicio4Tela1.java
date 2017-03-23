@@ -17,10 +17,12 @@ public class Exercicio4Tela1 extends AppCompatActivity {
 
     public void enviarNota(View view){
         String msg = "";
+        Intent j;
         int n = Integer.valueOf(nota.getText().toString());
 
         if(n < 7){
-            msg+= "Nota do exame";
+            j = new Intent(this, Exercicio4Tela3.class);
+            startActivity(j);
 
         }else msg+= "Aprovado sem a necessidade de exame";
 

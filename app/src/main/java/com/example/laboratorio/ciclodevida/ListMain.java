@@ -26,7 +26,8 @@ public class ListMain extends ListActivity {
         super.onCreate(savedInstanceState);
 
         String[] values = new String[] {"Calculadora", "Principal", "MainActivity", "Exercicio 1", "Exercicio 2", "Exercicio 3",
-                "Exercicio 4", "Exercicio 5", "Exercicio 6", "Exercicio 7", "Exercicio 8", "Exercicio 9"};
+                "Exercicio 4", "Exercicio 5", "Exercicio 6", "Exercicio 7", "Exercicio 8", "Exercicio 9", "Exercicio 10",
+                "Exercicio 11", "Exercicio 12", "Exercicio 13", "Exercicio 14", "Exercicio 15", "Exercicio 16"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, values);
         setListAdapter(adapter);
     }
@@ -84,6 +85,34 @@ public class ListMain extends ListActivity {
                 break;
             case "Exercicio 9":
                 i = new Intent(this, Exercicio9Tela1.class);
+                startActivity(i);
+                break;
+            case "Exercicio 10":
+                i = new Intent(this, Exercicio10Tela1.class);
+                startActivity(i);
+                break;
+            case "Exercicio 11":
+                i = new Intent(this, Exercicio11Tela1.class);
+                startActivity(i);
+                break;
+            case "Exercicio 12":
+                i = new Intent(this, Exercicio12Tela1.class);
+                startActivity(i);
+                break;
+            case "Exercicio 13":
+                i = new Intent(this, Exercicio13Tela1.class);
+                startActivity(i);
+                break;
+            case "Exercicio 14":
+                i = new Intent(this, Exercicio14Tela1.class);
+                startActivity(i);
+                break;
+            case "Exercicio 15":
+                i = new Intent(this, Exercicio15Tela1.class);
+                startActivity(i);
+                break;
+            case "Exercicio 16":
+                i = new Intent(this, Exercicio16Tela1.class);
                 startActivity(i);
                 break;
 

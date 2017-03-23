@@ -17,9 +17,9 @@ public class Exercicio8Tela1 extends AppCompatActivity {
 
     public void enviarPesquisa(View view){
         String msg = "";
-        String pal = String.valueOf(palavra.toString());
+        String pal = String.valueOf(palavra.getText().toString());
 
-        if(pal.charAt(0) !='a'){
+        if(pal.charAt(0) =='a'){
             msg+= pal;
         }else msg+= "A palavra não começa com a letra A";
 

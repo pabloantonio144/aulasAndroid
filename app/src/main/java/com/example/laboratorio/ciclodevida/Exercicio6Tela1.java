@@ -23,7 +23,7 @@ public class Exercicio6Tela1 extends AppCompatActivity {
 
         String msg = "";
         if (n > 10){
-            msg+="O"+n+"multiplicado por 2 e:" +n*2;
+            msg+="O " +n+" multiplicado por 2 e: " +n*2;
 
               }else msg+=" O "+n+" multiplicado por 3 e: "+n*3;
 

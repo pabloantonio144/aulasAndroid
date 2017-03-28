@@ -52,7 +52,13 @@
         <activity android:name=".Exercicio13Tela1" />
         <activity android:name=".Exercicio14Tela1" />
         <activity android:name=".Exercicio15Tela1" />
-        <activity android:name=".Exercicio16Tela1"></activity>
+        <activity android:name=".Exercicio16Tela1" />
+        <activity android:name=".Exercicio10Tela2" />
+        <activity android:name=".Exercicio12Tela2" />
+        <activity android:name=".Exercicio13Tela2" />
+        <activity android:name=".Exercicio14Tela2" />
+        <activity android:name=".Exercicio15Tela2" />
+        <activity android:name=".Exercicio16Tela2"></activity>
     </application>
 
 </manifest>

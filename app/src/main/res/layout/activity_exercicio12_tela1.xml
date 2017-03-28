@@ -9,4 +9,110 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.laboratorio.ciclodevida.Exercicio12Tela1">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ididade1"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView21"
+        android:layout_alignEnd="@+id/textView21" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="idade"
+        android:id="@+id/textView21"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idnome1"
+        android:layout_alignTop="@+id/ididade1"
+        android:layout_alignEnd="@+id/button24"
+        android:layout_toEndOf="@+id/ididade1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:id="@+id/button24"
+        android:onClick="enviarNomeidade"
+        android:layout_below="@+id/ididade5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nome"
+        android:id="@+id/textView22"
+        android:layout_above="@+id/idnome1"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ididade2"
+        android:layout_below="@+id/ididade1"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/idnome1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idnome2"
+        android:layout_below="@+id/idnome1"
+        android:layout_alignEnd="@+id/idnome1"
+        android:layout_toEndOf="@+id/ididade2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ididade3"
+        android:layout_below="@+id/ididade2"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/idnome2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idnome3"
+        android:layout_below="@+id/idnome2"
+        android:layout_alignEnd="@+id/idnome2"
+        android:layout_toEndOf="@+id/ididade3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ididade4"
+        android:layout_below="@+id/ididade3"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/idnome3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idnome4"
+        android:layout_below="@+id/idnome3"
+        android:layout_alignEnd="@+id/idnome3"
+        android:layout_toEndOf="@+id/ididade4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ididade5"
+        android:layout_below="@+id/ididade4"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/idnome4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idnome5"
+        android:layout_below="@+id/idnome4"
+        android:layout_alignEnd="@+id/idnome4"
+        android:layout_toEndOf="@+id/ididade5" />
+
 </RelativeLayout>

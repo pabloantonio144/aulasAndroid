@@ -51,5 +51,6 @@
         android:layout_below="@+id/edSNum"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="49dp"
-        android:textColor="#1461b3" />
+        android:textColor="#1461b3"
+        android:onClick="enviarNumero" />
 </RelativeLayout>

@@ -25,7 +25,7 @@ public class Exercicio15Tela1 extends AppCompatActivity {
             }
 
             if (cont==2)
-                msg+= n;
+                msg+= n+",";
             n++;d=1;cont=0;
             }
 

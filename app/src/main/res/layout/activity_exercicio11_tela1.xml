@@ -9,4 +9,47 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.laboratorio.ciclodevida.Exercicio11Tela1">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primeiro Numero"
+        android:id="@+id/textView16"
+        android:layout_marginTop="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#761515" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edPNum"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo Numero"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/edPNum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textColor="#7e1414" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edSNum"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:id="@+id/button20"
+        android:layout_below="@+id/edSNum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:textColor="#1461b3" />
 </RelativeLayout>

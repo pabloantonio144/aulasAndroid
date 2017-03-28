@@ -2,6 +2,7 @@ package com.example.laboratorio.ciclodevida;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class Exercicio14Tela2 extends AppCompatActivity {
 
@@ -9,5 +10,10 @@ public class Exercicio14Tela2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercicio14_tela2);
+        String msg = getIntent().getStringExtra("resultado");
+        TextView textResultado =
+                (TextView) findViewById(R.id.textResultado);
+
+        textResultado.setText(msg);
     }
 }

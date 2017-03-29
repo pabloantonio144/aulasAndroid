@@ -52,7 +52,7 @@ public class Exercicio12Tela1 extends AppCompatActivity {
 
 
 
-            msg+= "Soma da idades é "+soma ;
+            msg+= "Soma da idades é "+soma+" , " ;
         if((id1 >= id2) && (id1 >= id3) && (id1 >= id4) && (id1 >= id5)){
             msg+= "Nome: "+no1;
         }

@@ -34,4 +34,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="39dp"
         android:onClick="enviarNumero" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Multiplicar numero por 2"
+        android:id="@+id/textView26"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

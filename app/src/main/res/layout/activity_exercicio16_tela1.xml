@@ -14,7 +14,17 @@
         android:layout_height="wrap_content"
         android:text="Visualizar"
         android:id="@+id/button25"
-        android:layout_centerVertical="true"
+        android:onClick="enviar100Primos"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:onClick="enviar100Primos" />
+        android:layout_marginTop="147dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="100 primeiros numeros primos"
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
